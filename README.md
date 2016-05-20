@@ -31,3 +31,11 @@ git commit -m 'deploy xxx'
 git remote add origin git@github.com:Lawrence-zxc/maven-repo.git
 git push origin master
 ```
+
+
+#在github上搭建个人maven仓库
+主要分三步：
+
+* deploy到本地目录
+* 把本地目录提交到gtihub上
+* 配置github地址为仓库地址
