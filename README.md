@@ -24,17 +24,17 @@ git push origin master
 
 pom.xml:
 ```xml
-    <repositories>
+   <repositories>
         <repository>
             <id>Lawrence-zxc-maven-repo</id>
             <url>https://raw.githubusercontent.com/Lawrence-zxc/maven-repo/master/repository</url>
         </repository>
-    </repositories>
+   </repositories>
    <dependencies>
-   		<dependency>
-	      	<groupId>com.msun.springStarter</groupId>
-	    	<artifactId>start</artifactId>
-	    	<version>3.0.8</version>
+   	<dependency>
+      		<groupId>com.msun.springStarter</groupId>
+    		<artifactId>springStarter</artifactId>
+    		<version>3.0.8</version>
     	</dependency>
    </dependencies>
 ```
