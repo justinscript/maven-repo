@@ -48,6 +48,32 @@ github使用了raw.githubusercontent.com这个域名用于raw文件下载。所�
 ```
 mvn deploy -DaltDeploymentRepository=zxc-mvn-repo::default::file:/home/zxc/code/maven-repo/repository/
 ```
+##maven artifact使用
+```
+<project>
+ <!--Add repositories-->
+ <repositories>
+     <repository>
+         <id>haoch-maven-snapshot-repository</id>
+         <name>haoch-maven-snapshot-repository</name>
+         <url>https://raw.github.com/${github_account}/maven/snapshot/</url>
+     </repository>
+     <repository>
+         <id>haoch-maven-release-repository</id>
+         <name>haoch-maven-release-repository</name>
+         <url>https://raw.github.com/${github_account}/maven/release/</url>
+     </repository>
+ </repositories>
+ <!-- Add dependencies -->
+ <dependencies>
+     <dependency>
+         <artifactId>${artifactId}</artifactId>
+         <groupId>com.github.${github_account}</groupId>
+         <version>${version}</version>
+     </dependency>
+ </dependencies>
+</project>
+```
 
 ##其他方式
 `site-maven-plugin`
