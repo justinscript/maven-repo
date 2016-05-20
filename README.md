@@ -1,2 +1,2 @@
 # maven-repo
-my github mavne repository
+my github maven repository
