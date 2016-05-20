@@ -54,13 +54,13 @@ mvn deploy -DaltDeploymentRepository=zxc-mvn-repo::default::file:/home/zxc/code/
  <!--Add repositories-->
  <repositories>
      <repository>
-         <id>haoch-maven-snapshot-repository</id>
-         <name>haoch-maven-snapshot-repository</name>
+         <id>zxc-maven-snapshot-repository</id>
+         <name>zxc-maven-snapshot-repository</name>
          <url>https://raw.github.com/${github_account}/maven/snapshot/</url>
      </repository>
      <repository>
-         <id>haoch-maven-release-repository</id>
-         <name>haoch-maven-release-repository</name>
+         <id>zxc-maven-release-repository</id>
+         <name>zxc-maven-release-repository</name>
          <url>https://raw.github.com/${github_account}/maven/release/</url>
      </repository>
  </repositories>
