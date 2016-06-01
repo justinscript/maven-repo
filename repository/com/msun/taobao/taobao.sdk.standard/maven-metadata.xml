@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.msun.taobao</groupId>
-  <artifactId>sdk</artifactId>
+  <artifactId>taobao.sdk.standard</artifactId>
   <versioning>
     <release>20151026</release>
     <versions>
