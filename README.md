@@ -24,12 +24,19 @@ git push origin master
 
 pom.xml:
 ```xml
-    <repositories>
+   <repositories>
         <repository>
-            <id>zxc-maven-repo</id>
-            <url>https://raw.githubusercontent.com/zxc/maven-repo/master/repository</url>
+            <id>Lawrence-zxc-maven-repo</id>
+            <url>https://raw.githubusercontent.com/Lawrence-zxc/maven-repo/master/repository</url>
         </repository>
-    </repositories>
+   </repositories>
+   <dependencies>
+   	<dependency>
+      		<groupId>com.msun.springStarter</groupId>
+    		<artifactId>springStarter</artifactId>
+    		<version>3.0.8</version>
+    	</dependency>
+   </dependencies>
 ```
 
 #在github上搭建个人maven仓库
