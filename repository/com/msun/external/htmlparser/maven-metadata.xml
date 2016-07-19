@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.msun.external</groupId>
+  <artifactId>htmlparser</artifactId>
+  <version>0.0.0</version>
+  <versioning>
+    <latest>0.0.0</latest>
+    <versions>
+      <version>0.0.0</version>
+    </versions>
+    <lastUpdated>20121107151548</lastUpdated>
+  </versioning>
+</metadata>
