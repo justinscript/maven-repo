@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.msun.alipay</groupId>
+  <artifactId>thirdpartyPay</artifactId>
+  <version>alipay-sdk</version>
+  <versioning>
+    <latest>java20161213173952</latest>
+    <versions>
+      <version>java20161213173952</version>
+    </versions>
+    <lastUpdated>201612131739</lastUpdated>
+  </versioning>
+</metadata>
