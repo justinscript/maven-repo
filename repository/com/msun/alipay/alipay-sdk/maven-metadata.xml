@@ -4,10 +4,11 @@
   <artifactId>thirdpartyPay</artifactId>
   <version>alipay-sdk</version>
   <versioning>
-    <latest>java20161213173952</latest>
+    <latest>java20171026141113</latest>
     <versions>
       <version>java20161213173952</version>
+      <version>java20171026141113</version>
     </versions>
-    <lastUpdated>201612131739</lastUpdated>
+    <lastUpdated>201710261411</lastUpdated>
   </versioning>
 </metadata>
