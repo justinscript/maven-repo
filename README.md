@@ -18,7 +18,7 @@ cd /home/zxc/code/maven-repo/
 git init
 git add repository/*
 git commit -m 'deploy xxx'
-git remote add origin git@github.com:Lawrence-zxc/maven-repo.git
+git remote add origin git@github.com:justinscript/maven-repo.git
 git push origin master
 ```
 
@@ -26,8 +26,8 @@ pom.xml:
 ```xml
    <repositories>
         <repository>
-            <id>Lawrence-zxc-maven-repo</id>
-            <url>https://raw.githubusercontent.com/Lawrence-zxc/maven-repo/master/repository</url>
+            <id>justinscript-maven-repo</id>
+            <url>https://raw.githubusercontent.com/justinscript/maven-repo/master/repository</url>
         </repository>
    </repositories>
    <dependencies>
